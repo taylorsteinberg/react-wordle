@@ -18,53 +18,53 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="D"
           status="correct"
         />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
+        <Cell value="O" />
+        <Cell value="N" />
+        <Cell value="N" />
         <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter D is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="C" />
+        <Cell value="R" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="U"
           status="present"
         />
-        <Cell value="O" />
+        <Cell value="S" />
         <Cell value="T" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter U is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
+        <Cell value="L" />
         <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="N" />
+        <Cell isRevealing={true} isCompleted={true} value="N" status="absent" />
+        <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter N is not in the word in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
+        This is the Yerd Herd version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://www.youtube.com/watch?v=Gs069dndIYk"
           className="underline font-bold"
         >
-          check out the code here
+          You already know
         </a>{' '}
       </p>
     </BaseModal>
